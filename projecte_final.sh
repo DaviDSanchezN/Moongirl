@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#hay que tener en cuenta que en la otra maquina quiza no tiene instalado y habilitado ssh
 # Funció per realitzar les comprovacions de hardware i software
 function comprovacions_servidor() {
     # Aquí pots incloure les comandes per realitzar les comprovacions desitjades
