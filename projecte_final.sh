@@ -1,3 +1,4 @@
+  GNU nano 7.2                                         projecte4.sh                                                  
 #!/bin/bash
 
 # Funció per realitzar les comprovacions de hardware i software
@@ -44,6 +45,7 @@ function comprovacions_ports() {
     # Guardar las salidas en variables
     comprovacions_ports_output="$ports_output $apache_status"
 }
+
 
 # Funció per executar les comprovacions en el servidor remot
 function executar_comprovacions_remotes() {
